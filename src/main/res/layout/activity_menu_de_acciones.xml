@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".acciones.MenuDeAcciones">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/topAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.MaterialComponents.ActionBar"
+        app:menu="@menu/menu_main"
+    app:title="@string/app_name"
+    app:titleTextColor="@android:color/white" />
+
+    <!-- Tu RecyclerView o el contenido principal de la actividad -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/menuAcciones"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#CCEFB5"/>
+</LinearLayout>

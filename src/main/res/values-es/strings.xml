@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vitalsoft</string>
+    <string name="email">Email</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="Login">Iniciar Sesión</string>
+    <string name="FP">Olvido de contraseña</string>
+    <string name="TC">Acepto los términos y condiciones.</string>
+    <string name="Register">Registrarse</string>
+    <string name="CP">Confirmar contraseña</string>
+    <string name="BL">Volver al login</string>
+</resources>

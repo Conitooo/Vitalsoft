@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="@android:color/white"
+    tools:context=".ReconocimientoVozActivity">
+
+    <!-- Texto explicativo -->
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Presiona el botón y di lo que deseas hacer"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <ImageView
+        android:id="@+id/ivMicrofono"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/microphone"
+        android:contentDescription="Icono de micrófono"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnIniciarVoz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hablar ahora"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Texto donde se mostrará lo que el usuario diga -->
+    <TextView
+        android:id="@+id/tvTextoReconocido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Esperando voz..."
+        android:textSize="18sp"
+        android:textColor="@android:color/darker_gray"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="@android:color/white"/>
+
+</LinearLayout>
